@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<!-- saved from url=(0037)http://localhost:8081/odlms/login.php -->
+<html lang="en" class="" style="height: auto;"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <style>
+    :root{
+      --base_url:http://localhost:8081/odlms/;
+    }
+  </style>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  	<title>Online Diagnostic Lab Management System</title>
+    <link rel="icon" href="./Online Diagnostic Lab Management System_files/logo-1641866302.png">
+    <!-- Google Font: Source Sans Pro -->
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&amp;display=fallback"> -->
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="./Online Diagnostic Lab Management System_files/all.min.css">
+    <!-- Ionicons -->
+    <!-- <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"> -->
+    <!-- Tempusdominus Bootstrap 4 -->
+    <link rel="stylesheet" href="./Online Diagnostic Lab Management System_files/tempusdominus-bootstrap-4.min.css">
+      <!-- DataTables -->
+  <link rel="stylesheet" href="./Online Diagnostic Lab Management System_files/dataTables.bootstrap4.min.css">
+  <link rel="stylesheet" href="./Online Diagnostic Lab Management System_files/responsive.bootstrap4.min.css">
+  <link rel="stylesheet" href="./Online Diagnostic Lab Management System_files/buttons.bootstrap4.min.css">
+   <!-- Select2 -->
+  <link rel="stylesheet" href="./Online Diagnostic Lab Management System_files/select2.min.css">
+  <link rel="stylesheet" href="./Online Diagnostic Lab Management System_files/select2-bootstrap4.min.css">
+    <!-- iCheck -->
+    <link rel="stylesheet" href="./Online Diagnostic Lab Management System_files/icheck-bootstrap.min.css">
+    <!-- JQVMap -->
+    <link rel="stylesheet" href="./Online Diagnostic Lab Management System_files/jqvmap.min.css">
+    <!-- fullCalendar -->
+    <link rel="stylesheet" href="./Online Diagnostic Lab Management System_files/main.css">
+    <!-- Theme style -->
+    <link rel="stylesheet" href="./Online Diagnostic Lab Management System_files/adminlte.css">
+    <link rel="stylesheet" href="./Online Diagnostic Lab Management System_files/custom.css">
+    <!-- overlayScrollbars -->
+    <link rel="stylesheet" href="./Online Diagnostic Lab Management System_files/OverlayScrollbars.min.css">
+    <!-- Daterange picker -->
+    <link rel="stylesheet" href="./Online Diagnostic Lab Management System_files/daterangepicker.css">
+    <!-- summernote -->
+    <link rel="stylesheet" href="./Online Diagnostic Lab Management System_files/summernote-bs4.min.css">
+     <!-- SweetAlert2 -->
+  <link rel="stylesheet" href="./Online Diagnostic Lab Management System_files/bootstrap-4.min.css">
+    <style type="text/css">/* Chart.js */
+      @keyframes chartjs-render-animation{from{opacity:.99}to{opacity:1}}.chartjs-render-monitor{animation:chartjs-render-animation 1ms}.chartjs-size-monitor,.chartjs-size-monitor-expand,.chartjs-size-monitor-shrink{position:absolute;direction:ltr;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1}.chartjs-size-monitor-expand>div{position:absolute;width:1000000px;height:1000000px;left:0;top:0}.chartjs-size-monitor-shrink>div{position:absolute;width:200%;height:200%;left:0;top:0}
+    </style>
+
+     <!-- jQuery -->
+    <script src="./Online Diagnostic Lab Management System_files/jquery.min.js.download"></script>
+    <!-- jQuery UI 1.11.4 -->
+    <script src="./Online Diagnostic Lab Management System_files/jquery-ui.min.js.download"></script>
+    <!-- SweetAlert2 -->
+    <script src="./Online Diagnostic Lab Management System_files/sweetalert2.min.js.download"></script>
+    <!-- Toastr -->
+    <script src="./Online Diagnostic Lab Management System_files/toastr.min.js.download"></script>
+    <script>
+        var _base_url_ = 'http://localhost:8081/odlms/';
+    </script>
+    <script src="./Online Diagnostic Lab Management System_files/script.js.download"></script>
+
+  </head><body class="" style="height: auto;">
+  <script>
+    start_loader()
+  </script>
+  <style>
+    html, body{
+      height:calc(100%) !important;
+      width:calc(100%) !important;
+    }
+    body{
+      background-image: url("http://localhost:8081/odlms/uploads/cover-1641866302.png");
+      background-size:cover;
+      background-repeat:no-repeat;
+    }
+    .login-title{
+      text-shadow: 2px 2px black
+    }
+    #login{
+      flex-direction:column !important
+    }
+    #logo-img{
+        height:150px;
+        width:150px;
+        object-fit:scale-down;
+        object-position:center center;
+        border-radius:100%;
+    }
+    #login .col-7,#login .col-5{
+      width: 100% !important;
+      max-width:unset !important
+    }
+  </style>
+       
+  <div class="h-100 d-flex align-items-center w-100" id="login">
+    <div class="col-7 h-100 d-flex align-items-center justify-content-center">
+      <div class="w-100">
+        <center><img src="./Online Diagnostic Lab Management System_files/logo-1641866302.png" alt="" id="logo-img"></center>
+        <h1 class="text-center py-5 login-title"><b>Online Diagnostic Lab Management System - Admin</b></h1>
+      </div>
+      
+    </div>
+    <div class="col-5 h-100 bg-gradient">
+      <div class="d-flex w-100 h-100 justify-content-center align-items-center">
+        <div class="card col-sm-12 col-md-6 col-lg-3 card-outline card-primary rounded-0 shadow">
+          <div class="card-header rounded-0">
+            <h4 class="text-purle text-center"><b>Login</b></h4>
+          </div>
+          <div class="card-body rounded-0">
+            <form id="clogin-frm" action="http://localhost:8081/odlms/login.php" method="post">
+              <div class="input-group mb-3">
+                <input type="email" class="form-control" autofocus="" name="email" placeholder="Email" fdprocessedid="1qyrdg">
+                <div class="input-group-append">
+                  <div class="input-group-text">
+                    <span class="fas fa-user"></span>
+                  </div>
+                </div>
+              </div>
+              <div class="input-group mb-3">
+                <input type="password" class="form-control" name="password" placeholder="Password" fdprocessedid="rgsfg">
+                <div class="input-group-append">
+                  <div class="input-group-text">
+                    <span class="fas fa-lock"></span>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-8">
+                  <a href="http://localhost:8081/odlms/register.php">Create an Account</a>
+                </div>
+                <!-- /.col -->
+                <div class="col-4">
+                  <button type="submit" class="btn btn-primary btn-block btn-flat" fdprocessedid="wf47b">Sign In</button>
+                </div>
+                <!-- /.col -->
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- jQuery -->
+<script src="./Online Diagnostic Lab Management System_files/jquery.min.js.download"></script>
+<!-- Bootstrap 4 -->
+<script src="./Online Diagnostic Lab Management System_files/bootstrap.bundle.min.js.download"></script>
+<!-- AdminLTE App -->
+<script src="./Online Diagnostic Lab Management System_files/adminlte.min.js.download"></script>
+
+<script>
+  $(document).ready(function(){
+    end_loader();
+  })
+</script>
+
+<span id="PING_IFRAME_FORM_DETECTION" style="display: none;"></span></body></html>
