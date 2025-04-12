@@ -1,1 +1,1 @@
-# online-diagonostic-systems
+# online-diagonostic lab reporting system
